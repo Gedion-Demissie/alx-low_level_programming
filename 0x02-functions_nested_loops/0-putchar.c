@@ -7,12 +7,13 @@
  */
 int main(void)
 {
-char *ge = "main.h";
-while (ge)
-{
-_putchar(*ge);
-ge++;
-}
-_putchar('/n');
+
+_putchar('_');
+_putchar('p');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('\n');
+
 return (0);
 }
