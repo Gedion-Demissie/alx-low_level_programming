@@ -10,10 +10,9 @@ int main(void)
 char *ge = "main.h";
 while (ge)
 {
-_putchar(*ge)
+_putchar(*ge);
 ge++;
 }
 _putchar('/n');
 return (0);
-
 }
