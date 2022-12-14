@@ -1,4 +1,4 @@
-#include<stdio.h.>
+#include "main.h."
 
 /**
  *main - prints _putchar, followed by a new line
@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-char *ge = "_putchar";
+char *ge = "main.h";
 while (ge)
 {
 _putchar(*ge)
-ge++
+ge++;
 }
 _putchar('/n');
 return (0);
