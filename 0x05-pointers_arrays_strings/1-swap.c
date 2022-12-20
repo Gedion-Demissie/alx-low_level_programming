@@ -1,8 +1,7 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * swap_int - Updates the value of the parameter to 98
+ * swap_int - Updates the value of the parameter
  * @a: The value
  * @b: The value
  *
