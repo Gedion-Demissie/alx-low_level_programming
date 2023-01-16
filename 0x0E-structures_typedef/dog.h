@@ -1,7 +1,6 @@
 #ifndef STRTYP
 #define STRTYP
 
-
 /**
  * struct dog - strucuture of the gog
  * @name: name of the dog
