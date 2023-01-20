@@ -20,10 +20,8 @@ op_t ops[] = {
 {NULL, NULL},
 }
 
-int i =0;
+int i = 0;
 while (ops[i].op != NULL && *(ops[i].op) != *s)
 i++;
 return (ops[i].f);
 }
-
-		
